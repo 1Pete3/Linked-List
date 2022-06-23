@@ -1,0 +1,12 @@
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.csproj.AssemblyReference.cache
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.csproj.SuggestedBindingRedirects.cache
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.Form1.resources
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.Properties.Resources.resources
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.csproj.GenerateResource.cache
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.csproj.CoreCompileInputs.cache
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\bin\Debug\nodes.exe.config
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\bin\Debug\nodes.exe
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\bin\Debug\nodes.pdb
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.exe
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.pdb
+C:\Users\skowr\Desktop\DOTNET\Book\nodes\obj\Debug\nodes.Visual.resources
