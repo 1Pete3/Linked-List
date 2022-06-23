@@ -16,6 +16,15 @@ namespace nodes
         public Visual()
         {
             InitializeComponent();
+            textBoxUnsortedEndNode1.Text = Convert.ToString(Form1.Node1);
+            textBoxUnsortedEndNode2.Text = Convert.ToString(Form1.Node2);
+            textBoxUnsortedEndNode3.Text = Convert.ToString(Form1.Node3);
+            textBoxUnsortedEndNode4.Text = Convert.ToString(Form1.Node4);
+            textBoxUnsortedStartNode1.Text = Convert.ToString(Form1.Node4);
+            textBoxUnsortedStartNode2.Text = Convert.ToString(Form1.Node3);
+            textBoxUnsortedStartNode3.Text = Convert.ToString(Form1.Node2);
+            textBoxUnsortedStartNode4.Text = Convert.ToString(Form1.Node1);
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -56,6 +65,12 @@ namespace nodes
         private void label13_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
         }
     }
 }

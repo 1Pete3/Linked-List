@@ -12,10 +12,10 @@ namespace nodes
 {
     public partial class Form1 : Form
     {
-        int Node1;
-        int Node2;
-        int Node3;
-        int Node4;  
+        public static int Node1;
+        public static int Node2;
+        public static int Node3;
+        public static int Node4;
         public Form1()
         {
             InitializeComponent();
@@ -47,7 +47,7 @@ namespace nodes
             string stringNode2 = textBox2.Text;
             string stringNode3 = textBox3.Text;
             string stringNode4 = textBox4.Text;
-            Visual visual = new Visual();
+            
             
             try
             {
@@ -59,20 +59,29 @@ namespace nodes
                [node1]->[node2]->[node3]->[node4] -> NULL
                []       []       []       [] 
                 */
-                MyList list = new MyList();
-                //list.AddToEnd(Node1);
-                //list.AddToEnd(Node2);
-                //list.AddToEnd(Node3);
-                //list.AddToEnd(Node4);
-                //list.AddToBeginning(7);
-                //list.AddToBeginning(5);
-                //list.AddToBeginning(9);
-                //list.AddToBeginning(11);
-                list.AddSorted(Node1);
-                list.AddSorted(Node2);
-                list.AddSorted(Node3);
-                list.AddSorted(Node4);
-                list.Print();
+                MyList EndList = new MyList();
+                MyList BeginningList = new MyList();
+                MyList SortedList = new MyList();
+
+                Console.WriteLine("Adding to End");
+                EndList.AddToEnd(Node1);
+                EndList.AddToEnd(Node2);
+                EndList.AddToEnd(Node3);
+                EndList.AddToEnd(Node4);
+                EndList.Print();
+                Console.WriteLine("Adding to Beginning");
+                BeginningList.AddToBeginning(Node1);
+                BeginningList.AddToBeginning(Node2);
+                BeginningList.AddToBeginning(Node3);
+                BeginningList.AddToBeginning(Node4);
+                BeginningList.Print();
+                Console.WriteLine("Sorted");
+                SortedList.AddSorted(Node1);
+                SortedList.AddSorted(Node2);
+                SortedList.AddSorted(Node3);
+                SortedList.AddSorted(Node4);
+                SortedList.Print();
+                Visual visual = new Visual();
                 visual.Show();
             }
             catch (FormatException)
@@ -85,6 +94,11 @@ namespace nodes
                 textBox1.Focus();
             }
 
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+           this.Close();
         }
     }
     public class MyList 
